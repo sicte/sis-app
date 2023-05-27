@@ -6,6 +6,7 @@
   "author": "sicte",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint --ext .js,.ts,.vue ./",
     "format": "prettier --write \"**/*.{js,ts,vue,css,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
